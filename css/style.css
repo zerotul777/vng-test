@@ -8502,17 +8502,13 @@ button,
   gap: 20px;
 }
 
-.intro-main__bottom .intro-card:nth-of-type(1) .intro-card__wrapper {
+.intro-main__bottom .intro-card:nth-of-type(2) .intro-card__wrapper {
   background-color: #597AE7;
 }
 
-.intro-main__bottom .intro-card:nth-of-type(1) .intro-card__title,
-.intro-main__bottom .intro-card:nth-of-type(1) .intro-card__text {
+.intro-main__bottom .intro-card:nth-of-type(2) .intro-card__title,
+.intro-main__bottom .intro-card:nth-of-type(2) .intro-card__text {
   color: #ffffff;
-}
-
-.intro-main__bottom .intro-card:nth-of-type(2) {
-  background-color: #ffffff;
 }
 
 .intro-main__bottom .intro-card:nth-of-type(3) .intro-card__wrapper {
@@ -12138,6 +12134,10 @@ button,
 
   .header__social {
     display: none;
+  }
+
+  .header__burger {
+    margin: 0 0 0 15px;
   }
 
   .footer__header-left {
